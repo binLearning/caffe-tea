@@ -1,3 +1,23 @@
+# Caffe-tea
+Add new functions in [BVLC-Caffe](https://github.com/BVLC/caffe).
+<br>
+## New Addition
+[#147] [Center Loss](http://ydwen.github.io/papers/WenECCV16.pdf) <br>
+[#148] [L2 Normalization](https://arxiv.org/abs/1703.09507) <br>
+
+
+
+
+
+
+
+
+
+
+<br>
+
+---
+Original README.md of Caffe
 # Caffe
 
 [![Build Status](https://travis-ci.org/BVLC/caffe.svg?branch=master)](https://travis-ci.org/BVLC/caffe)
