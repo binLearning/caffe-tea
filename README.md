@@ -1,19 +1,12 @@
-# Caffe-tea
-Add new functions in [BVLC-Caffe](https://github.com/BVLC/caffe).
+# caffe-tea
+Add new functions in [BVLC-Caffe](https://github.com/BVLC/caffe), for further details, please refer to [developing_caffe](https://github.com/binLearning/developing_caffe).
 <br>
-## New Addition
+### New Addition
 [#147] [Center Loss](http://ydwen.github.io/papers/WenECCV16.pdf) <br>
 [#148] [L2 Normalization](https://arxiv.org/abs/1703.09507) <br>
 
-
-
-
-
-
-
-
-
-
+### Contact Info
+If you have any problem on this project, please contact me by sending email to binlearning@163.com.
 <br>
 
 ---
