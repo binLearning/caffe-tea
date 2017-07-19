@@ -31,7 +31,7 @@ class L2NormalizationLayer : public Layer<Dtype> {
   virtual void Backward_gpu(const vector<Blob<Dtype>*>& top,
       const vector<bool>& propagate_down, const vector<Blob<Dtype>*>& bottom);
 
-Blob<Dtype> squared_;
+  Blob<Dtype> squared_;
 };
 
 }  // namespace caffe
