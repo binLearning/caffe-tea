@@ -20,7 +20,7 @@ void L2NormalizationLayer<Dtype>::Forward_gpu(const vector<Blob<Dtype>*>& bottom
   caffe_gpu_powx(bottom[0]->count(), bottom_data, Dtype(2), squared_data);
   
   for (int n = 0; n < num; ++n) {
-    int offset = num * dim;
+    int offset = n * dim;
     Dtype sum_squared_one_batch;
     caffe_gpu_asum<Dtype>(dim, squared_data + offset, &sum_squared_one_batch);
     caffe_gpu_scale<Dtype>(dim, Dtype(pow(sum_squared_one_batch, -0.5)), 
@@ -40,7 +40,7 @@ void L2NormalizationLayer<Dtype>::Backward_gpu(const vector<Blob<Dtype>*>& top,
   int dim = top[0]->count() / num;
   
   for (int n=0; n<num; ++n) {
-    int offset = num * dim;
+    int offset = n * dim;
     Dtype dot_top_data_diff;
     Dtype bottom_data_norm;
     caffe_gpu_dot(dim, top_data + offset, top_diff + offset, &dot_top_data_diff);
