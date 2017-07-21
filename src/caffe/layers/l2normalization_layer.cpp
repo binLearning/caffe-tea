@@ -9,10 +9,13 @@ namespace caffe {
 template <typename Dtype>
 void L2NormalizationLayer<Dtype>::Reshape(const vector<Blob<Dtype>*>& bottom,
       const vector<Blob<Dtype>*>& top) {
-  top[0]->Reshape(bottom[0]->num(), bottom[0]->channels(),
-      bottom[0]->height(), bottom[0]->width());
-  squared_.Reshape(bottom[0]->num(), bottom[0]->channels(), 
-    bottom[0]->height(), bottom[0]->width());
+  //top[0]->Reshape(bottom[0]->num(), bottom[0]->channels(),
+  //    bottom[0]->height(), bottom[0]->width());
+  //squared_.Reshape(bottom[0]->num(), bottom[0]->channels(), 
+  //  bottom[0]->height(), bottom[0]->width());
+  
+  top[0]->Reshape(bottom[0]->shape());
+  squared_.Reshape(bottom[0]->shape());
 }
 
 template <typename Dtype>
