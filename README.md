@@ -1,5 +1,5 @@
 # caffe-tea
-Add new functions in [BVLC-Caffe](https://github.com/BVLC/caffe), for further details, please refer to [developing_caffe](https://github.com/binLearning/developing_caffe).
+Add new functions in [BVLC-Caffe](https://github.com/BVLC/caffe).
 <br>
 ### New Addition
 [#147] [Center Loss](http://ydwen.github.io/papers/WenECCV16.pdf) <br>
