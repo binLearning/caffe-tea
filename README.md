@@ -2,9 +2,10 @@
 Add new functions in [BVLC-Caffe](https://github.com/BVLC/caffe).
 <br>
 ### New Addition
-[#147] [Center Loss](http://ydwen.github.io/papers/WenECCV16.pdf) [[source](https://github.com/ydwen/caffe-face)]<br>
-[#148] [L2 Normalization](https://arxiv.org/abs/1703.09507) <br>
-[#149] [Large Margin Softmax Loss](https://arxiv.org/abs/1612.02295) [[source](https://github.com/wy1iu/LargeMargin_Softmax_Loss)] <br>
+[#201] [Center Loss](http://ydwen.github.io/papers/WenECCV16.pdf) [[source](https://github.com/ydwen/caffe-face)]<br>
+[#202] [L2 Normalization](https://arxiv.org/abs/1703.09507) <br>
+[#203] [Large Margin Softmax Loss](https://arxiv.org/abs/1612.02295) [[source](https://github.com/wy1iu/LargeMargin_Softmax_Loss)] <br>
+[#204] [Focal Loss](https://arxiv.org/abs/1708.02002) (**only CPU**) <br>
 
 ### Contact Info
 If you have any problem on this project, please contact me by sending email to binlearning@163.com.
